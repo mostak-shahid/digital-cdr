@@ -18,21 +18,24 @@
 <body>
     <div class="d-flex justify-content-center align-items-center h-100vh">
         <div class="form-wrapper">
-            <h2 class="text-center text-golden font-18 mb-35">Please Give Your Consent</h2>
-            <div class="form-check mb-35">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                <label class="form-check-label text-ash" for="flexCheckChecked">
-                    I am above 18 years of age and I am an adult smoker
-                </label>
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">                
-                <a href="#" class="btn btn-sm w-100 btn-golden">Next</a>
-            </div>
+            <form class="needs-validation" novalidate method="post" action="part-5.html">
+                <h2 class="text-center text-golden font-18 mb-35">Please Give Your Consent</h2>
+                <div class="form-check mb-35">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked required>
+                    <label class="form-check-label text-ash" for="flexCheckChecked">
+                        I am above 18 years of age and I am an adult smoker
+                    </label>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">                
+                    <button type="submit" class="btn btn-sm w-100 btn-golden">Next</button>
+                </div>
+            </form>
         </div>
     </div>
     <div class="fixed-bottom bg-white text-center p-1 banglatext font-14">ধুমপানের কারনে গর্ভের সন্তানের ক্ষতি হয়</div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

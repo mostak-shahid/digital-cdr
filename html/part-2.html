@@ -18,21 +18,26 @@
 <body>
     <div class="d-flex justify-content-center align-items-center h-100vh">
         <div class="form-wrapper">
-            <h2 class="text-center text-golden font-18 mb-20">Please Log In</h2>
-            <a href="#" class="btn w-100 rounded-pill btn-facebook mb-15"><i class="fa fa-facebook fb-button-icon"></i> <span>Log In with Facebook</span></a>
-            <h2 class="text-center text-golden font-18 mb-15">OR</h2>
-            <div class="input-group rounded-pill mb-20 bg-white-50 py-6">
-                <span class="input-group-text bg-transparent text-ash border-0"><i class="fa fa-mobile"></i></span>
-                <input type="text" class="form-control bg-transparent text-ash ash-placeholder border-0 font-12" placeholder="Please Enter Your Mobile Number">
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">                
-                <a href="#" class="btn btn-sm w-100 btn-golden">Next</a>
-            </div>
+            <form class="needs-validation" novalidate method="post" action="part-3.html">
+                <h2 class="text-center text-golden font-18 mb-20">Please Log In</h2>
+                <a href="#" class="btn w-100 rounded-pill btn-facebook mb-15"><i class="fa fa-facebook fb-button-icon"></i> <span>Log In with Facebook</span></a>
+                <h2 class="text-center text-golden font-18 mb-15">OR</h2>
+                <div class="form-group">
+                    <div class="input-group rounded-pill mb-20 bg-white-50 py-6">
+                        <span class="input-group-text bg-transparent text-ash border-0"><i class="fa fa-mobile"></i></span>
+                        <input type="text" class="form-control bg-transparent text-ash ash-placeholder border-0 font-12" placeholder="Please Enter Your Mobile Number" required>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">                
+                    <button type="submit" class="btn btn-sm w-100 btn-golden">Next</button>
+                </div>
+            </form>
         </div>
     </div>
     <div class="fixed-bottom bg-white text-center p-1 banglatext font-14">ধুমপানের কারনে গর্ভের সন্তানের ক্ষতি হয়</div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

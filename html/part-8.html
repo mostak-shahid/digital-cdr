@@ -18,20 +18,25 @@
 <body>
     <div class="d-flex justify-content-center align-items-center h-100vh">
         <div class="form-wrapper">
-            <h2 class="text-center text-golden font-18 mb-35">Quiz visual 1</h2>
-            <div class="text-ash font-12 mb-20 text-center">What is the name of the brand?</div>
-            <div class="row g-3 mb-30">
-                <div class="col-6">                
-                    <button type="button" class="btn btn-sm w-100 btn-outline-golden font-10 btn-answer" value="Benson">Benson</button>
+            <form class="needs-validation" novalidate method="post" action="part-9.html">
+                <h2 class="text-center text-golden font-18 mb-35">Quiz visual 1</h2>
+                <div class="text-ash font-12 mb-20 text-center">What is the name of the brand?</div>
+                <div class="row g-3 mb-30">
+                    <div class="col-6">                
+                        <button type="button" class="btn btn-sm w-100 btn-outline-golden font-10 btn-answer" value="Benson">Benson</button>
+                    </div>
+                    <div class="col-6">                
+                        <button type="button" class="btn btn-sm w-100 btn-outline-golden font-10 btn-answer" value="Benson & Hedges">Benson &amp; Hedges</button>
+                    </div>   
+                    <input type="text" class="answer d-none" required>   
+                    <div class="invalid-feedback">
+                        Please provide an answer.
+                    </div>          
                 </div>
-                <div class="col-6">                
-                    <button type="button" class="btn btn-sm w-100 btn-outline-golden font-10 btn-answer" value="Benson & Hedges">Benson &amp; Hedges</button>
-                </div>   
-                <input type="hidden" class="answer">             
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">                
-                <a href="#" class="btn btn-sm w-100 btn-golden">Next</a>
-            </div>
+                <div class="d-grid gap-2 col-6 mx-auto">                
+                    <button type="submit" class="btn btn-sm w-100 btn-golden">Next</button>
+                </div>
+            </form>
         </div>
     </div>
     <div class="fixed-bottom bg-white text-center p-1 banglatext font-14">ধুমপানের কারনে গর্ভের সন্তানের ক্ষতি হয়</div>
