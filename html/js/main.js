@@ -8,6 +8,8 @@ jQuery(document).ready(function($){
     $('.btn-answer').on('click',function(){
         let value = $(this).val();
         $(this).closest('.row').find('.answer').val(value);
+        $(this).closest('.col-6').siblings('.col-6').find('button').removeClass('active');
+        $(this).addClass('active');
     });
 });
 (function () {
