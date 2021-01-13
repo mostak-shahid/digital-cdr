@@ -1,4 +1,6 @@
 jQuery(document).ready(function($){	
+    let bHeight = $('body').height() - 30;            
+    $('.set-height').css('height',bHeight);
     if ($('#sig').length>0){
         var sig = $('#sig').signature();
         $('#sigClear').click(function() {

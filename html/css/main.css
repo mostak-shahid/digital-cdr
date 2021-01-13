@@ -25,11 +25,15 @@ body{
     padding-top: 6px;
     padding-bottom: 6px;
 }
+
 .bangla-text {
     font-family: 'KongshoMJ';    
 }
 .h-100vh{
     height: 100vh;
+}
+.h-100p{
+    height: 100%;
 }
 .font-18{
     font-size: 18px;
@@ -45,6 +49,9 @@ body{
 }
 .font-10{
     font-size: 10px;
+}
+.line-height-30{
+    line-height: 30px;
 }
 .weight-600{
     font-weight: 600;
